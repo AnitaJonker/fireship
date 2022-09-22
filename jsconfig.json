@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "esnext",
+    "module": "es2015",
     "baseUrl": "./",
     "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "allowJs": true,
     "paths": {
       "@/*": [
         "src/*"
